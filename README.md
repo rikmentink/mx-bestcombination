@@ -8,8 +8,6 @@ Provides customers with the best possible product combination on your PrestaShop
 
 This module is an open source extension to the [PrestaShop e-commerce platform][prestashop]. Everyone is welcome and even encouraged to contribute with their own improvements!
 
-Just make sure to follow their [contribution guidelines][contribution-guidelines].
-
 ## License
 
 This module is released under the [MIT License][MIT]
