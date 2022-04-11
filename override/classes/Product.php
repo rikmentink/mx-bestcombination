@@ -12,6 +12,7 @@
  * @copyright 2022 Rik Mentink
  * @license   https://opensource.org/licenses/MIT  MIT License
  */
+
 class Product extends ProductCore {
     public static function getIdProductAttributeByIdAttributes($idProduct, $idAttributes, $findBest = true)
     {
