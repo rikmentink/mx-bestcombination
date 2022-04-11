@@ -37,7 +37,7 @@ class Mx_bestcombination extends Module
         $this->name = 'mx_bestcombination';
         $this->tab = 'front_office_features';
         $this->version = '1.0.0';
-        $this->author = 'Mantrix Development';
+        $this->author = 'Rik Mentink';
         $this->need_instance = 0;
         $this->bootstrap = true;
 

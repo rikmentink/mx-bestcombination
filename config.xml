@@ -4,7 +4,7 @@
 	<displayName><![CDATA[Find Best Combination]]></displayName>
 	<version><![CDATA[1.0.0]]></version>
 	<description><![CDATA[Automatically selects the best combination possible when some are unavailable.]]></description>
-	<author><![CDATA[Mantrix Development]]></author>
+	<author><![CDATA[Rik Mentink]]></author>
 	<tab><![CDATA[front_office_features]]></tab>
 	<is_configurable>1</is_configurable>
 	<need_instance>1</need_instance>
