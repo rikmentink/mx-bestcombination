@@ -1,5 +1,9 @@
 <?php
-
+/*
+ *  @author    Rik Mentink <rik.mentink@icloud.com>
+ *  @copyright 2022 Rik Mentink
+ *  @license   https://opensource.org/licenses/MIT  MIT License
+ */
 if (!defined('_PS_VERSION_')) {
     exit;
 }
@@ -25,10 +29,6 @@ class Mx_bestcombination extends Module
         $this->ps_versions_compliancy = array('min' => '1.6', 'max' => _PS_VERSION_);
     }
 
-    /**
-     * Don't forget to create update methods if needed:
-     * http://doc.prestashop.com/display/PS16/Enabling+the+Auto-Update
-     */
     public function install()
     {
         Configuration::updateValue('MX_BESTCOMBINATION_LIVE_MODE', false);

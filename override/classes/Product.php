@@ -7,6 +7,10 @@
  * To make sure the best combination will be found, the
  * boolean $findBest will be set to true. This should 
  * return the best combination possible every time.
+ *
+ * @author    Rik Mentink <rik.mentink@icloud.com>
+ * @copyright 2022 Rik Mentink
+ * @license   https://opensource.org/licenses/MIT  MIT License
  */
 class Product extends ProductCore {
     public static function getIdProductAttributeByIdAttributes($idProduct, $idAttributes, $findBest = true)
