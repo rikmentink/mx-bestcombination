@@ -36,7 +36,7 @@
 		{l s='In the card below you can enable or disable the generic function of this module.'}
 	</p>
 	<p>
-		<strong>{l s='Developers' mod='mx_bestcombination'}</strong>
-		{l s='Are you a developer and would you like to contribute to perfecting this module? Feel free to open a suggestion or commit to this module yourself on the'}<a href="https://github.com/rikmentink/mx_bestcombination" title="rikmentink/mx_bestcombination">{l s='GitHub repository%' mod='mx_bestcombination'}</a></strong>
+		<strong>{l s='Developers' mod='mx_bestcombination'}</strong><br />
+		{l s='Are you a developer and would you like to contribute to perfecting this module? Feel free to open a suggestion or commit to this module yourself on the'} <a href="https://github.com/rikmentink/mx_bestcombination" title="rikmentink/mx_bestcombination">{l s='GitHub repository' mod='mx_bestcombination'}</a>.</strong>
 	</p>
 </div>

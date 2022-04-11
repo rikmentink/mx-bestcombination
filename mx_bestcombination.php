@@ -20,7 +20,7 @@ class Mx_bestcombination extends Module
         parent::__construct();
 
         $this->displayName = $this->l('Find Best Combination');
-        $this->description = $this->l('Automatically selects the best combination possible when some are unavailable.');
+        $this->description = $this->l('Provides customers with the best possible product combination on your PrestaShop e-commerce store.');
 
         $this->ps_versions_compliancy = array('min' => '1.6', 'max' => _PS_VERSION_);
     }
@@ -34,7 +34,6 @@ class Mx_bestcombination extends Module
         Configuration::updateValue('MX_BESTCOMBINATION_LIVE_MODE', false);
 
         return parent::install() &&
-            $this->registerHook('header') &&
             $this->registerHook('displayBackOfficeHeader');
     }
 
